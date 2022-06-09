@@ -85,6 +85,17 @@ button {
     font-size: 16px;
     line-height: 1.88;
 }
+
+.primary {
+      cursor: pointer;
+      color: #212121;
+      background-color:var(--primary-text-color);
+      font-family: 'Roboto';     
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.62;
+     
+}
        
 /* work */
 
@@ -162,4 +173,22 @@ button {
      font-weight: 400;
      font-size: 14px;
      line-height: 1.71;      
+}
+
+/* portfolio */
+
+.portfolio-title {
+      color: #212121;
+      font-family: 'Roboto';
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 2;    
+}
+
+.portfolio-text {
+     color: #757575;
+      font-family: 'Roboto';
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1.88;
 }
