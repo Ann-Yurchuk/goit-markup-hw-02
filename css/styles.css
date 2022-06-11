@@ -12,7 +12,6 @@
   font-size: 14px;
   letter-spacing: 0.03em;
   background-color: var(--primary-white-color) 
-
  }
 
  .link {
@@ -33,35 +32,36 @@
     color: var(--logo-color) 
  }
 
-.current-link {
-    color: var(--accent-color)
-}
-
-.site-nav .nav-link:hover,
-.site-nav .nav-link:focus {
-    color: var(--accent-color);
-}
-
-
-.nav-item {
-  color: var(--secondary-text-color)
-}
-.contact-link {
-    color: #757575;
-}
-
 .nav-item,
 .contact-link {
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
+.nav-item {
+    color:var(--secondary-text-color)
+}
 
+.contact-link {
+    color: #757575;
+}
+
+.contact-link:focus,
+.contact-link:hover{
+    color: var(--accent-color);
+
+}
+.nav-item:focus,
+.nav-item:hover {
+    color: var(--accent-color);
+}
  .accent {
   color: var(--accent-color);
  }
 
-
+.current-link {
+    color: var(--accent-color)
+} 
 /* hero */
 
 .section-hero {
@@ -70,33 +70,40 @@
 
 .hero-title {
   color: var(--primary-white-color);
-  font-family: 'Roboto';
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   text-transform: uppercase;
+ letter-spacing: 0.06em;
 }
   
-button {
-    cursor: pointer;
-    color: var(--primary-white-color);
-    background-color: var(--accent-color);
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
+.btn,
+.btn-light {
+       cursor: pointer;
+        font-family: inherit;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.06em;
+        
+    }
+    
+  .btn:hover,
+  .btn:focus {
+    color:#FFFFFF;
+    background-color: #2196F3;
+    
+}
+.btn-light:active {
+    cursor: pointer; 
 }
 
-.primary {
-      cursor: pointer;
-     
-}
-       
-/* work */
+
+
+/* description */
 
 .description-title {
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -142,9 +149,6 @@ button {
 
 .footer-contact-address {
     color: var(--primary-white-color);
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
@@ -155,25 +159,22 @@ button {
       font-size: 26px;
       line-height: 1.19x;
       letter-spacing: 0.03em;
-      color: #FFFFFF;
+      color:var(--primary-white-color)
 }
 
 
 /* portfolio */
 
-.portfolio-title {
-   
-    font-family: 'Roboto';
-    font-weight: 700;
+.card-title {
+   font-weight: 700;
     font-size: 18px;
     line-height: 2;
+    letter-spacing: 0.06em;
     color: var(--logo-color)
 }
 
-.portfolio-text {
+.card-text {
     color: #757575;
-    font-family: 'Roboto';
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
 }
