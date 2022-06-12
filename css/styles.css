@@ -82,7 +82,7 @@
 .btn-light {
        cursor: pointer;
         font-family: inherit;
-        font-weight: 700;
+        font-weight: 500;
         font-size: 16px;
         line-height: 1.88;
         letter-spacing: 0.06em;
@@ -95,8 +95,9 @@
     background-color: #2196F3;
     
 }
-.btn-light:active {
-    cursor: pointer; 
+.btn-light {
+    color: #FFFFFF;
+    background-color: #2196F3;
 }
 
 
@@ -118,8 +119,7 @@
 
 /* team */
 
-.about-title,
-.team-title {
+.section-title {
        font-size: 36px;
       line-height: 1.17;
       text-align: center;     
